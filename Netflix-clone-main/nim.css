@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    background-color: black;
+    opacity: 1;
+    padding: 10px 10px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    
+   
+   
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+}
+.navigation a:hover{
+    /* background-color: gray; */
+    color: blueviolet;
+    border-radius: 5px;
+    /* padding: 0 4px; */
+
+}
+.banner-section img{
+    width: 100vw;
+    height: 100vh;
+    object-position: centre;
+    object-fit: cover;
+    position: relative;
+}
+.banner-section{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    width: 100;
+    height: 60px;
+    top: 70px;
+    left: 50px;
+
+
+}
+.text{
+    position:absolute;
+    top: 50%;
+    z-index: 100;
+    color: white;
+    left: 20%;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+}
+.text h2{
+    font-size: 40px;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 30px;
+    justify-content: center;
+    margin-top: 5%;
+    text-align: centre;
+    margin-left: 80px;
+}
+.inputs input{
+    width: 100%;
+    height: inherit;
+    background-color:white;
+
+}
+.inputs button{
+    width: 150px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+}
+.sign{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    font-size: 25px;
+    background-color: red;
+}
+.main-image{
+    filter: brightness(0.4);
+}
+.second-block{
+    display: flex;
+    height: 60bh;
+    margin-bottom: 5px;
+} 
+.second-block .sub-img img{
+    width:30vw;
+    height:100%
+
+}
+.second-block .subText{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.questions{
+    display: flex;
+    height: 60bh;
+    margin-bottom: 5px;
+    flex-direction: column;
+    background-color: black;
+    padding-top: 80px;
+    color: white;
+    
+    
+   
+
+}
+.questions h1{
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+
+}
+.sub{
+    background-color: grey;
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    width: 70%;
+    margin-left: 230px;
+
+}
+.sub p{
+    display: none;
+}
+.sub:hover p{
+    display: block;
+    background-color: gray;
+}
+.sub:hover h2{
+    background-color: grey;
+}
+.sub h2{
+   display: flex;
+   justify-content: space-between;
+   padding: 12px 15px;
+}
+.sub :hover .symbol{
+    transform: rotate(45deg);
+
+}
+.third-block .third img{
+    width: 30vw;
+    height:100% ;
+}
+.third-block .block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.third-block{
+    display: flex;
+    height: 60bh;
+    margin-bottom: 5px;
+
+}
+.fourth-block{
+    display: flex;
+    height: 60bh;
+    margin-bottom: 5px;
+    
+
+}
+.fourth-block .lock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+.fourth-block .fourth img{
+    width:30vw;
+    height:100%;
+    background-color: black;
+    color: white;
+}
+.fifth-block{
+    display: flex;
+    height: 60bh;
+    margin-bottom: 5px;
+
+}
+.fifth-block .fifth img{
+    width: 30vw;
+    height:100% ;
+
+}
+.fifth-block .ock{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+.text{
+    position:absolute;
+    top: 50%;
+    z-index: 100;
+    color: white;
+    left: 20%;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: center;
+}
+.questions .input{
+    background-color: black;
+    color: white;
+    line-height: 50px;
+}
+.input input{
+    width: 20%;
+    height: inherit;
+    background-color:black;
+    border: 2px solid white;
+    margin-left: 40%;
+    height: 5vh;
+
+}
+.input button{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    height: 5vh;
+
+}
+.sixth-block{
+    display: flex;
+    height: 60bh;
+    margin-bottom: 5px;
+    background-color: black;
+    margin-bottom:80px ;
+    padding-top: 35px;
+    padding-bottom:300px;
+
+}
+.sixth-block .th{
+    text-decoration: underline;
+    margin-left: 20%;
+    color: white;
+    background-color: black;
+    line-height: 300%;
+
+}
+.sixth-block:hover p{
+    cursor: pointer;
+}
+.sixth-block .sixth{
+    text-decoration: underline;
+    line-height: 300%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+}
+.sixth-block .xth{
+    text-decoration: underline;
+    line-height: 300%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    margin-left: 10%;
+
+}
+.sixth-block #dropdown{
+    border: 3px solid white;
+    background: black;
+    color: white;
+    height: 5vh;
+
+}
